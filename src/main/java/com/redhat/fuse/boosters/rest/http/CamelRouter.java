@@ -13,7 +13,6 @@ public class CamelRouter extends RouteBuilder {
 
     @Override
     public void configure() throws Exception {
-
         // @formatter:off
         restConfiguration()
                 .apiContextPath("/api-doc")
